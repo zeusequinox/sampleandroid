@@ -15,7 +15,7 @@ android {
         }
     }
     defaultConfig {
-        applicationId "com.sample.myapplication"
+        applicationId "com.sample.myapplicationnnnn"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
