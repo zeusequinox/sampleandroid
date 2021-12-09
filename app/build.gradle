@@ -18,8 +18,8 @@ android {
         applicationId "com.sample.myapplicationnnnn"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
         ndkVersion '21.1.6352462'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
