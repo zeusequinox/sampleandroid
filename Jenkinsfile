@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('build'){
       steps{
-        sh 'echo $(pwd)'
-        sh 'echo $(ls -ltr)'
+        sh 'pwd'
+        sh 'ls -ltr'
+        sh 'whoami'
+        sh 'echo $USER'
       }
     
     }
