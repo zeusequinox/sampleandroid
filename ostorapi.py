@@ -27,7 +27,7 @@ def get_all_scans():
 
 
 def scan(title,path,headers):
-    path = sys.argv[1]
+    #path = sys.argv[1]
     apk = open(path,'rb')
     query = '''mutation newMobileScan($title: String!, $assetType: String!, $application: Upload!, $plan: String!) {
   createMobileScan(title: $title, assetType:$assetType, application: $application, plan: $plan) {
